@@ -1,0 +1,5 @@
+step,name,input_path,symbols_in_input,srs_total_size,delta_added,H_struct_input_log,H_struct_total_log
+1,S1,C:/Users/ASUS/Desktop/SSAU/outputs/ssau_master_alphabet/alphabet.json,8,8,8,2.079441542,2.079441542
+2,S2,C:/Users/ASUS/Desktop/SSAU/outputs/ssw_extract_out/alphabet.json,9,17,9,2.197224577,2.833213344
+3,S3,C:/Users/ASUS/Desktop/SSAU/outputs/ssau_csv_extract_out/alphabet.json,5,22,5,1.609437912,3.091042453
+4,S4,C:/Users/ASUS/Desktop/SSAU/outputs/ssau_unify_out/20000101_000000__SSAU_UNIFY__V02__V02_UNIFY_MASTER_SSW_CSV/ssau_unified_alphabet.json,22,22,0,3.091042453,3.091042453

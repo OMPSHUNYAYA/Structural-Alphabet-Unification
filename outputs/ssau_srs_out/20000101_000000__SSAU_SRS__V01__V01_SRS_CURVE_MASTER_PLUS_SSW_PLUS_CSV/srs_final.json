@@ -1,0 +1,40 @@
+{
+  "contract": "srs_growth_curve",
+  "counts": {
+    "final_srs_size": 22,
+    "steps": 4
+  },
+  "engine": "SSAU_SRS__V01",
+  "final_srs_sorted": [
+    "A:ABSTAIN",
+    "C:C:STABLE",
+    "C:STABLE",
+    "C:STABLE_OSCILLATION",
+    "D:ALIGNED",
+    "D:BREAKDOWN",
+    "D:D:DRIFT",
+    "D:DRIFTING_DOWN",
+    "D:DRIFTING_UP",
+    "D:DRIFT_UP",
+    "D:RESONANT",
+    "D:TURN",
+    "D:UP",
+    "I:I:IRREV",
+    "I:IRREVERSIBLE",
+    "M:M:META",
+    "M:METASTABLE",
+    "N:N:DENY",
+    "R:R:RECOVER",
+    "T:T:THRESH",
+    "X:CROSS",
+    "X:X:CROSS"
+  ],
+  "formulae": {
+    "H_struct(D)": "log(|SRS(D)|)",
+    "H_unified": "log(|SRS(D1 ∪ D2)|)"
+  },
+  "invariant": "phi((m,a,s)) = m",
+  "replay": "REPLAY_B",
+  "tag": "V01_SRS_CURVE_MASTER_PLUS_SSW_PLUS_CSV",
+  "version": "v0.1"
+}

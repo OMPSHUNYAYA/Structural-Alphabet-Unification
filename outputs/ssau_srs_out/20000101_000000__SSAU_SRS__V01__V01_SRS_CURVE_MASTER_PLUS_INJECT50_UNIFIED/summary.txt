@@ -1,0 +1,7 @@
+SSAU SRS Growth Curve v0.1
+engine=SSAU_SRS__V01
+tag=V01_SRS_CURVE_MASTER_PLUS_INJECT50_UNIFIED
+replay=REPLAY_B
+steps=3
+final_srs_size=58
+formula: H_struct(D) = log(|SRS(D)|)
