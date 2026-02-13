@@ -1,0 +1,25 @@
+{
+  "alphabet": [
+    {
+      "count": 2,
+      "decision": "ABSTAIN",
+      "first_index": 6,
+      "role": "EDGE",
+      "sigma": "EDGE:COLLIDE_X"
+    },
+    {
+      "count": 1,
+      "decision": "ALLOW",
+      "first_index": 7,
+      "role": "EDGE",
+      "sigma": "EDGE:COLLIDE_Y"
+    },
+    {
+      "count": 8,
+      "decision": "ALLOW",
+      "first_index": 8,
+      "role": "MODE",
+      "sigma": "MODE:STABLE"
+    }
+  ]
+}

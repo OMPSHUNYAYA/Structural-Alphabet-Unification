@@ -1,0 +1,17 @@
+SSAU Collision Test v0.1
+ENGINE_TAG: SSAU_COLLISION_TEST__V01
+tag: V01_COLLISION_SYNTH
+
+unique_u_sigma: 5
+collision_u_sigma: 2
+noncollision_u_sigma: 3
+
+governance_lattice_order:
+  DENY
+  ABSTAIN
+  ALLOW_RESTRICTED
+  ALLOW
+
+resolution_rule:
+  resolved_decision = min(decisions_seen) under lattice order
+

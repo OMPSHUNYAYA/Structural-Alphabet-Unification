@@ -1,0 +1,32 @@
+{
+  "alphabet": [
+    {
+      "count": 10,
+      "decision": "DENY",
+      "first_index": 1,
+      "role": "ROLE",
+      "sigma": "ROLE:TERMINAL:DENY"
+    },
+    {
+      "count": 50,
+      "decision": "ALLOW",
+      "first_index": 2,
+      "role": "MODE",
+      "sigma": "MODE:STABLE"
+    },
+    {
+      "count": 20,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": 3,
+      "role": "MODE",
+      "sigma": "MODE:DRIFTING"
+    },
+    {
+      "count": 5,
+      "decision": "ALLOW",
+      "first_index": 4,
+      "role": "EDGE",
+      "sigma": "EDGE:COLLIDE_X"
+    }
+  ]
+}

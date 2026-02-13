@@ -1,0 +1,25 @@
+{
+  "alphabet": [
+    {
+      "count": 7,
+      "decision": "DENY",
+      "first_index": 1,
+      "role": "ROLE",
+      "sigma": "ROLE:TERMINAL:DENY"
+    },
+    {
+      "count": 3,
+      "decision": "DENY",
+      "first_index": 9,
+      "role": "EDGE",
+      "sigma": "EDGE:COLLIDE_X"
+    },
+    {
+      "count": 4,
+      "decision": "ABSTAIN",
+      "first_index": 10,
+      "role": "EDGE",
+      "sigma": "EDGE:COLLIDE_Y"
+    }
+  ]
+}

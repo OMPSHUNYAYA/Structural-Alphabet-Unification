@@ -1,0 +1,170 @@
+{
+  "all": [
+    {
+      "collision": false,
+      "core": "DRIFTING",
+      "decisions_seen": [
+        "ALLOW_RESTRICTED"
+      ],
+      "resolved_decision": "ALLOW_RESTRICTED",
+      "role": "MODE",
+      "sources": {
+        "synthetic_alphabet_01.json": {
+          "count": 20,
+          "decision": "ALLOW_RESTRICTED"
+        }
+      },
+      "u_sigma": "MODE:DRIFTING"
+    },
+    {
+      "collision": false,
+      "core": "STABLE",
+      "decisions_seen": [
+        "ALLOW"
+      ],
+      "resolved_decision": "ALLOW",
+      "role": "MODE",
+      "sources": {
+        "synthetic_alphabet_01.json": {
+          "count": 50,
+          "decision": "ALLOW"
+        },
+        "synthetic_alphabet_03.json": {
+          "count": 8,
+          "decision": "ALLOW"
+        }
+      },
+      "u_sigma": "MODE:STABLE"
+    },
+    {
+      "collision": false,
+      "core": "TERMINAL:DENY",
+      "decisions_seen": [
+        "DENY"
+      ],
+      "resolved_decision": "DENY",
+      "role": "ROLE",
+      "sources": {
+        "synthetic_alphabet_01.json": {
+          "count": 10,
+          "decision": "DENY"
+        },
+        "synthetic_alphabet_02.json": {
+          "count": 7,
+          "decision": "DENY"
+        }
+      },
+      "u_sigma": "ROLE:TERMINAL:DENY"
+    },
+    {
+      "collision": true,
+      "core": "COLLIDE_X",
+      "decisions_seen": [
+        "DENY",
+        "ABSTAIN",
+        "ALLOW"
+      ],
+      "resolved_decision": "DENY",
+      "role": "EDGE",
+      "sources": {
+        "synthetic_alphabet_01.json": {
+          "count": 5,
+          "decision": "ALLOW"
+        },
+        "synthetic_alphabet_02.json": {
+          "count": 3,
+          "decision": "DENY"
+        },
+        "synthetic_alphabet_03.json": {
+          "count": 2,
+          "decision": "ABSTAIN"
+        }
+      },
+      "u_sigma": "EDGE:COLLIDE_X"
+    },
+    {
+      "collision": true,
+      "core": "COLLIDE_Y",
+      "decisions_seen": [
+        "ABSTAIN",
+        "ALLOW"
+      ],
+      "resolved_decision": "ABSTAIN",
+      "role": "EDGE",
+      "sources": {
+        "synthetic_alphabet_02.json": {
+          "count": 4,
+          "decision": "ABSTAIN"
+        },
+        "synthetic_alphabet_03.json": {
+          "count": 1,
+          "decision": "ALLOW"
+        }
+      },
+      "u_sigma": "EDGE:COLLIDE_Y"
+    }
+  ],
+  "collisions": [
+    {
+      "collision": true,
+      "core": "COLLIDE_X",
+      "decisions_seen": [
+        "DENY",
+        "ABSTAIN",
+        "ALLOW"
+      ],
+      "resolved_decision": "DENY",
+      "role": "EDGE",
+      "sources": {
+        "synthetic_alphabet_01.json": {
+          "count": 5,
+          "decision": "ALLOW"
+        },
+        "synthetic_alphabet_02.json": {
+          "count": 3,
+          "decision": "DENY"
+        },
+        "synthetic_alphabet_03.json": {
+          "count": 2,
+          "decision": "ABSTAIN"
+        }
+      },
+      "u_sigma": "EDGE:COLLIDE_X"
+    },
+    {
+      "collision": true,
+      "core": "COLLIDE_Y",
+      "decisions_seen": [
+        "ABSTAIN",
+        "ALLOW"
+      ],
+      "resolved_decision": "ABSTAIN",
+      "role": "EDGE",
+      "sources": {
+        "synthetic_alphabet_02.json": {
+          "count": 4,
+          "decision": "ABSTAIN"
+        },
+        "synthetic_alphabet_03.json": {
+          "count": 1,
+          "decision": "ALLOW"
+        }
+      },
+      "u_sigma": "EDGE:COLLIDE_Y"
+    }
+  ],
+  "summary": {
+    "alphabet_count": 3,
+    "collision_u_sigma": 2,
+    "engine_tag": "SSAU_COLLISION_TEST__V01",
+    "governance_lattice": [
+      "DENY",
+      "ABSTAIN",
+      "ALLOW_RESTRICTED",
+      "ALLOW"
+    ],
+    "noncollision_u_sigma": 3,
+    "unique_u_sigma": 5,
+    "version": "v0.1"
+  }
+}
