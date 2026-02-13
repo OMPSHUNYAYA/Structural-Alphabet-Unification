@@ -1,0 +1,75 @@
+{
+  "engine": "SSAU_EXTRACT__V02",
+  "version": "v0.2",
+  "contract": "CAS-1",
+  "invariant": "phi((m,a,s)) = m",
+  "alphabet": [
+    {
+      "sigma": "ABSTAIN",
+      "role": "A",
+      "decision": "ABSTAIN",
+      "count": 16,
+      "first_index": 0
+    },
+    {
+      "sigma": "ALIGNED",
+      "role": "D",
+      "decision": "ALLOW",
+      "count": 45,
+      "first_index": 39
+    },
+    {
+      "sigma": "BREAKDOWN",
+      "role": "D",
+      "decision": "ALLOW",
+      "count": 47,
+      "first_index": 359
+    },
+    {
+      "sigma": "DRIFTING_DOWN",
+      "role": "D",
+      "decision": "ALLOW",
+      "count": 89,
+      "first_index": 30
+    },
+    {
+      "sigma": "DRIFTING_UP",
+      "role": "D",
+      "decision": "ALLOW",
+      "count": 109,
+      "first_index": 16
+    },
+    {
+      "sigma": "IRREVERSIBLE",
+      "role": "I",
+      "decision": "ALLOW",
+      "count": 35,
+      "first_index": 368
+    },
+    {
+      "sigma": "METASTABLE",
+      "role": "M",
+      "decision": "ALLOW_RESTRICTED",
+      "count": 23,
+      "first_index": 390
+    },
+    {
+      "sigma": "RESONANT",
+      "role": "D",
+      "decision": "ALLOW",
+      "count": 34,
+      "first_index": 348
+    },
+    {
+      "sigma": "STABLE_OSCILLATION",
+      "role": "C",
+      "decision": "ALLOW",
+      "count": 114,
+      "first_index": 26
+    }
+  ],
+  "notes": {
+    "roles": "GB-1 roles: C,D,T,M,X,I,R,N,A",
+    "decisions": "ALLOW, ALLOW_RESTRICTED, DENY, ABSTAIN"
+  }
+}
