@@ -1,0 +1,8 @@
+from_u_sigma,to_u_sigma,total_count
+D:UP,D:TURN,2
+C:STABLE,X:CROSS,1
+D:DRIFT_UP,D:UP,1
+D:TURN,C:STABLE,1
+D:TURN,D:TURN,1
+D:TURN,D:UP,1
+X:CROSS,D:TURN,1

@@ -1,0 +1,360 @@
+{
+  "contract": "unify_alphabets_and_optional_transitions",
+  "counts": {
+    "unified_edges": 7,
+    "unified_symbols": 22
+  },
+  "engine": "SSAU_UNIFY__V02",
+  "inputs": [
+    {
+      "alphabet_path": "C:\\Users\\ASUS\\Desktop\\SSAU\\outputs\\ssau_master_alphabet\\alphabet.json",
+      "name": "S1",
+      "transitions_path": ""
+    },
+    {
+      "alphabet_path": "C:\\Users\\ASUS\\Desktop\\SSAU\\outputs\\ssw_extract_out\\alphabet.json",
+      "name": "S2",
+      "transitions_path": ""
+    },
+    {
+      "alphabet_path": "C:\\Users\\ASUS\\Desktop\\SSAU\\outputs\\ssau_csv_extract_out\\alphabet.json",
+      "name": "S3",
+      "transitions_path": "C:\\Users\\ASUS\\Desktop\\SSAU\\outputs\\ssau_csv_extract_out\\transitions.csv"
+    }
+  ],
+  "invariant": "phi((m,a,s))=m",
+  "unified_alphabet": [
+    {
+      "core": "STABLE_OSCILLATION",
+      "decision": "ALLOW",
+      "first_index_min": 26,
+      "role": "C",
+      "sources": {
+        "S2": {
+          "count": 114,
+          "decision": "ALLOW",
+          "first_index": 26
+        }
+      },
+      "total_count": 114,
+      "u_sigma": "C:STABLE_OSCILLATION"
+    },
+    {
+      "core": "DRIFTING_UP",
+      "decision": "ALLOW",
+      "first_index_min": 16,
+      "role": "D",
+      "sources": {
+        "S2": {
+          "count": 109,
+          "decision": "ALLOW",
+          "first_index": 16
+        }
+      },
+      "total_count": 109,
+      "u_sigma": "D:DRIFTING_UP"
+    },
+    {
+      "core": "DRIFTING_DOWN",
+      "decision": "ALLOW",
+      "first_index_min": 30,
+      "role": "D",
+      "sources": {
+        "S2": {
+          "count": 89,
+          "decision": "ALLOW",
+          "first_index": 30
+        }
+      },
+      "total_count": 89,
+      "u_sigma": "D:DRIFTING_DOWN"
+    },
+    {
+      "core": "BREAKDOWN",
+      "decision": "ALLOW",
+      "first_index_min": 359,
+      "role": "D",
+      "sources": {
+        "S2": {
+          "count": 47,
+          "decision": "ALLOW",
+          "first_index": 359
+        }
+      },
+      "total_count": 47,
+      "u_sigma": "D:BREAKDOWN"
+    },
+    {
+      "core": "ALIGNED",
+      "decision": "ALLOW",
+      "first_index_min": 39,
+      "role": "D",
+      "sources": {
+        "S2": {
+          "count": 45,
+          "decision": "ALLOW",
+          "first_index": 39
+        }
+      },
+      "total_count": 45,
+      "u_sigma": "D:ALIGNED"
+    },
+    {
+      "core": "C:STABLE",
+      "decision": "ALLOW",
+      "first_index_min": 0,
+      "role": "C",
+      "sources": {
+        "S1": {
+          "count": 39,
+          "decision": "ALLOW",
+          "first_index": 0
+        }
+      },
+      "total_count": 39,
+      "u_sigma": "C:C:STABLE"
+    },
+    {
+      "core": "IRREVERSIBLE",
+      "decision": "ALLOW",
+      "first_index_min": 368,
+      "role": "I",
+      "sources": {
+        "S2": {
+          "count": 35,
+          "decision": "ALLOW",
+          "first_index": 368
+        }
+      },
+      "total_count": 35,
+      "u_sigma": "I:IRREVERSIBLE"
+    },
+    {
+      "core": "RESONANT",
+      "decision": "ALLOW",
+      "first_index_min": 348,
+      "role": "D",
+      "sources": {
+        "S2": {
+          "count": 34,
+          "decision": "ALLOW",
+          "first_index": 348
+        }
+      },
+      "total_count": 34,
+      "u_sigma": "D:RESONANT"
+    },
+    {
+      "core": "METASTABLE",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": 390,
+      "role": "M",
+      "sources": {
+        "S2": {
+          "count": 23,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": 390
+        }
+      },
+      "total_count": 23,
+      "u_sigma": "M:METASTABLE"
+    },
+    {
+      "core": "ABSTAIN",
+      "decision": "ABSTAIN",
+      "first_index_min": 0,
+      "role": "A",
+      "sources": {
+        "S2": {
+          "count": 16,
+          "decision": "ABSTAIN",
+          "first_index": 0
+        }
+      },
+      "total_count": 16,
+      "u_sigma": "A:ABSTAIN"
+    },
+    {
+      "core": "D:DRIFT",
+      "decision": "ALLOW",
+      "first_index_min": 0,
+      "role": "D",
+      "sources": {
+        "S1": {
+          "count": 8,
+          "decision": "ALLOW",
+          "first_index": 0
+        }
+      },
+      "total_count": 8,
+      "u_sigma": "D:D:DRIFT"
+    },
+    {
+      "core": "X:CROSS",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": 2,
+      "role": "X",
+      "sources": {
+        "S1": {
+          "count": 7,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": 2
+        }
+      },
+      "total_count": 7,
+      "u_sigma": "X:X:CROSS"
+    },
+    {
+      "core": "TURN",
+      "decision": "ALLOW",
+      "first_index_min": 2,
+      "role": "D",
+      "sources": {
+        "S3": {
+          "count": 4,
+          "decision": "ALLOW",
+          "first_index": 2
+        }
+      },
+      "total_count": 4,
+      "u_sigma": "D:TURN"
+    },
+    {
+      "core": "T:THRESH",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": 24,
+      "role": "T",
+      "sources": {
+        "S1": {
+          "count": 4,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": 24
+        }
+      },
+      "total_count": 4,
+      "u_sigma": "T:T:THRESH"
+    },
+    {
+      "core": "M:META",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": 19,
+      "role": "M",
+      "sources": {
+        "S1": {
+          "count": 3,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": 19
+        }
+      },
+      "total_count": 3,
+      "u_sigma": "M:M:META"
+    },
+    {
+      "core": "UP",
+      "decision": "ALLOW",
+      "first_index_min": 1,
+      "role": "D",
+      "sources": {
+        "S3": {
+          "count": 2,
+          "decision": "ALLOW",
+          "first_index": 1
+        }
+      },
+      "total_count": 2,
+      "u_sigma": "D:UP"
+    },
+    {
+      "core": "I:IRREV",
+      "decision": "ALLOW",
+      "first_index_min": 1,
+      "role": "I",
+      "sources": {
+        "S1": {
+          "count": 2,
+          "decision": "ALLOW",
+          "first_index": 1
+        }
+      },
+      "total_count": 2,
+      "u_sigma": "I:I:IRREV"
+    },
+    {
+      "core": "R:RECOVER",
+      "decision": "ALLOW",
+      "first_index_min": 37,
+      "role": "R",
+      "sources": {
+        "S1": {
+          "count": 2,
+          "decision": "ALLOW",
+          "first_index": 37
+        }
+      },
+      "total_count": 2,
+      "u_sigma": "R:R:RECOVER"
+    },
+    {
+      "core": "STABLE",
+      "decision": "ALLOW",
+      "first_index_min": 3,
+      "role": "C",
+      "sources": {
+        "S3": {
+          "count": 1,
+          "decision": "ALLOW",
+          "first_index": 3
+        }
+      },
+      "total_count": 1,
+      "u_sigma": "C:STABLE"
+    },
+    {
+      "core": "DRIFT_UP",
+      "decision": "ALLOW",
+      "first_index_min": 0,
+      "role": "D",
+      "sources": {
+        "S3": {
+          "count": 1,
+          "decision": "ALLOW",
+          "first_index": 0
+        }
+      },
+      "total_count": 1,
+      "u_sigma": "D:DRIFT_UP"
+    },
+    {
+      "core": "N:DENY",
+      "decision": "DENY",
+      "first_index_min": 41,
+      "role": "N",
+      "sources": {
+        "S1": {
+          "count": 1,
+          "decision": "DENY",
+          "first_index": 41
+        }
+      },
+      "total_count": 1,
+      "u_sigma": "N:N:DENY"
+    },
+    {
+      "core": "CROSS",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": 4,
+      "role": "X",
+      "sources": {
+        "S3": {
+          "count": 1,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": 4
+        }
+      },
+      "total_count": 1,
+      "u_sigma": "X:CROSS"
+    }
+  ],
+  "unified_edges_present": true,
+  "version": "v0.2"
+}

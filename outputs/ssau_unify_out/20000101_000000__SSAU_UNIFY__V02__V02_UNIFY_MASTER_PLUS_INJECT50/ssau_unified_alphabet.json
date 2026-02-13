@@ -1,0 +1,935 @@
+{
+  "contract": "unify_alphabets_and_optional_transitions",
+  "counts": {
+    "unified_edges": 0,
+    "unified_symbols": 58
+  },
+  "engine": "SSAU_UNIFY__V02",
+  "inputs": [
+    {
+      "alphabet_path": "C:\\Users\\ASUS\\Desktop\\SSAU\\outputs\\ssau_master_alphabet\\alphabet.json",
+      "name": "S1",
+      "transitions_path": ""
+    },
+    {
+      "alphabet_path": "C:\\Users\\ASUS\\Desktop\\SSAU\\outputs\\ssau_inject_out\\20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER\\INJECT_000050\\alphabet.json",
+      "name": "S2",
+      "transitions_path": ""
+    }
+  ],
+  "invariant": "phi((m,a,s))=m",
+  "unified_alphabet": [
+    {
+      "core": "C:STABLE",
+      "decision": "ALLOW",
+      "first_index_min": 0,
+      "role": "C",
+      "sources": {
+        "S1": {
+          "count": 39,
+          "decision": "ALLOW",
+          "first_index": 0
+        },
+        "S2": {
+          "count": 39,
+          "decision": "ALLOW",
+          "first_index": 0
+        }
+      },
+      "total_count": 78,
+      "u_sigma": "C:C:STABLE"
+    },
+    {
+      "core": "D:DRIFT",
+      "decision": "ALLOW",
+      "first_index_min": 0,
+      "role": "D",
+      "sources": {
+        "S1": {
+          "count": 8,
+          "decision": "ALLOW",
+          "first_index": 0
+        },
+        "S2": {
+          "count": 8,
+          "decision": "ALLOW",
+          "first_index": 0
+        }
+      },
+      "total_count": 16,
+      "u_sigma": "D:D:DRIFT"
+    },
+    {
+      "core": "X:CROSS",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": 2,
+      "role": "X",
+      "sources": {
+        "S1": {
+          "count": 7,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": 2
+        },
+        "S2": {
+          "count": 7,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": 2
+        }
+      },
+      "total_count": 14,
+      "u_sigma": "X:X:CROSS"
+    },
+    {
+      "core": "T:THRESH",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": 24,
+      "role": "T",
+      "sources": {
+        "S1": {
+          "count": 4,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": 24
+        },
+        "S2": {
+          "count": 4,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": 24
+        }
+      },
+      "total_count": 8,
+      "u_sigma": "T:T:THRESH"
+    },
+    {
+      "core": "M:META",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": 19,
+      "role": "M",
+      "sources": {
+        "S1": {
+          "count": 3,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": 19
+        },
+        "S2": {
+          "count": 3,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": 19
+        }
+      },
+      "total_count": 6,
+      "u_sigma": "M:M:META"
+    },
+    {
+      "core": "I:IRREV",
+      "decision": "ALLOW",
+      "first_index_min": 1,
+      "role": "I",
+      "sources": {
+        "S1": {
+          "count": 2,
+          "decision": "ALLOW",
+          "first_index": 1
+        },
+        "S2": {
+          "count": 2,
+          "decision": "ALLOW",
+          "first_index": 1
+        }
+      },
+      "total_count": 4,
+      "u_sigma": "I:I:IRREV"
+    },
+    {
+      "core": "R:RECOVER",
+      "decision": "ALLOW",
+      "first_index_min": 37,
+      "role": "R",
+      "sources": {
+        "S1": {
+          "count": 2,
+          "decision": "ALLOW",
+          "first_index": 37
+        },
+        "S2": {
+          "count": 2,
+          "decision": "ALLOW",
+          "first_index": 37
+        }
+      },
+      "total_count": 4,
+      "u_sigma": "R:R:RECOVER"
+    },
+    {
+      "core": "N:DENY",
+      "decision": "DENY",
+      "first_index_min": 41,
+      "role": "N",
+      "sources": {
+        "S1": {
+          "count": 1,
+          "decision": "DENY",
+          "first_index": 41
+        },
+        "S2": {
+          "count": 1,
+          "decision": "DENY",
+          "first_index": 41
+        }
+      },
+      "total_count": 2,
+      "u_sigma": "N:N:DENY"
+    },
+    {
+      "core": "INJ0001",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0001"
+    },
+    {
+      "core": "INJ0002",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0002"
+    },
+    {
+      "core": "INJ0003",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0003"
+    },
+    {
+      "core": "INJ0004",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0004"
+    },
+    {
+      "core": "INJ0005",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0005"
+    },
+    {
+      "core": "INJ0006",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0006"
+    },
+    {
+      "core": "INJ0007",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0007"
+    },
+    {
+      "core": "INJ0008",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0008"
+    },
+    {
+      "core": "INJ0009",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0009"
+    },
+    {
+      "core": "INJ0010",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0010"
+    },
+    {
+      "core": "INJ0011",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0011"
+    },
+    {
+      "core": "INJ0012",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0012"
+    },
+    {
+      "core": "INJ0013",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0013"
+    },
+    {
+      "core": "INJ0014",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0014"
+    },
+    {
+      "core": "INJ0015",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0015"
+    },
+    {
+      "core": "INJ0016",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0016"
+    },
+    {
+      "core": "INJ0017",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0017"
+    },
+    {
+      "core": "INJ0018",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0018"
+    },
+    {
+      "core": "INJ0019",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0019"
+    },
+    {
+      "core": "INJ0020",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0020"
+    },
+    {
+      "core": "INJ0021",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0021"
+    },
+    {
+      "core": "INJ0022",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0022"
+    },
+    {
+      "core": "INJ0023",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0023"
+    },
+    {
+      "core": "INJ0024",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0024"
+    },
+    {
+      "core": "INJ0025",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0025"
+    },
+    {
+      "core": "INJ0026",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0026"
+    },
+    {
+      "core": "INJ0027",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0027"
+    },
+    {
+      "core": "INJ0028",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0028"
+    },
+    {
+      "core": "INJ0029",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0029"
+    },
+    {
+      "core": "INJ0030",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0030"
+    },
+    {
+      "core": "INJ0031",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0031"
+    },
+    {
+      "core": "INJ0032",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0032"
+    },
+    {
+      "core": "INJ0033",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0033"
+    },
+    {
+      "core": "INJ0034",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0034"
+    },
+    {
+      "core": "INJ0035",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0035"
+    },
+    {
+      "core": "INJ0036",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0036"
+    },
+    {
+      "core": "INJ0037",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0037"
+    },
+    {
+      "core": "INJ0038",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0038"
+    },
+    {
+      "core": "INJ0039",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0039"
+    },
+    {
+      "core": "INJ0040",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0040"
+    },
+    {
+      "core": "INJ0041",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0041"
+    },
+    {
+      "core": "INJ0042",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0042"
+    },
+    {
+      "core": "INJ0043",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0043"
+    },
+    {
+      "core": "INJ0044",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0044"
+    },
+    {
+      "core": "INJ0045",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0045"
+    },
+    {
+      "core": "INJ0046",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0046"
+    },
+    {
+      "core": "INJ0047",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0047"
+    },
+    {
+      "core": "INJ0048",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0048"
+    },
+    {
+      "core": "INJ0049",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0049"
+    },
+    {
+      "core": "INJ0050",
+      "decision": "ALLOW_RESTRICTED",
+      "first_index_min": -1,
+      "role": "X",
+      "sources": {
+        "S2": {
+          "count": 0,
+          "decision": "ALLOW_RESTRICTED",
+          "first_index": -1
+        }
+      },
+      "total_count": 0,
+      "u_sigma": "X:INJ0050"
+    }
+  ],
+  "unified_edges_present": false,
+  "version": "v0.2"
+}
