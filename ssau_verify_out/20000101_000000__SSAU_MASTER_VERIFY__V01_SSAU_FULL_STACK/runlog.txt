@@ -1,0 +1,59 @@
+CMD: C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe C:\Users\ASUS\Desktop\SSAU\scripts\ssau_domain_injection_stress_v0_1.py --base C:\Users\ASUS\Desktop\SSAU\outputs\ssau_master_alphabet\alphabet.json --tag V01_INJECT_SSAU_MASTER --out_root C:\Users\ASUS\Desktop\SSAU\outputs\ssau_inject_out --inject_counts 0 5 10 25 50 --verify_replay
+
+VERIFY_REPLAY: PASS (all artifacts byte-identical across REPLAY_A and REPLAY_B)
+OK: SSAU domain injection stress v0.1 complete
+Output folder: C:\Users\ASUS\Desktop\SSAU\outputs\ssau_inject_out
+
+CMD: C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe C:\Users\ASUS\Desktop\SSAU\scripts\ssau_unify_v0_2.py --tag V02_UNIFY_MASTER_SSW_CSV --out_root C:\Users\ASUS\Desktop\SSAU\outputs\ssau_unify_out --inputs C:\Users\ASUS\Desktop\SSAU\outputs\ssau_master_alphabet\alphabet.json C:\Users\ASUS\Desktop\SSAU\outputs\ssw_extract_out\alphabet.json C:\Users\ASUS\Desktop\SSAU\outputs\ssau_csv_extract_out\alphabet.json --transitions   C:\Users\ASUS\Desktop\SSAU\outputs\ssau_csv_extract_out\transitions.csv --verify_replay
+
+VERIFY_REPLAY: PASS (all artifacts byte-identical across REPLAY_A and REPLAY_B)
+OK: SSAU unify v0.2 complete
+Output folder: C:\Users\ASUS\Desktop\SSAU\outputs\ssau_unify_out
+
+CMD: C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe C:\Users\ASUS\Desktop\SSAU\scripts\ssau_unify_v0_2.py --tag V02_UNIFY_MASTER_PLUS_INJECT50 --out_root C:\Users\ASUS\Desktop\SSAU\outputs\ssau_unify_out --inputs C:\Users\ASUS\Desktop\SSAU\outputs\ssau_master_alphabet\alphabet.json C:\Users\ASUS\Desktop\SSAU\outputs\ssau_inject_out\20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER\INJECT_000050\alphabet.json --transitions   --verify_replay
+
+VERIFY_REPLAY: PASS (all artifacts byte-identical across REPLAY_A and REPLAY_B)
+OK: SSAU unify v0.2 complete
+Output folder: C:\Users\ASUS\Desktop\SSAU\outputs\ssau_unify_out
+
+CMD: C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe C:\Users\ASUS\Desktop\SSAU\scripts\ssau_srs_growth_curve_v0_1.py --tag V01_SRS_CURVE_MASTER_PLUS_SSW_PLUS_CSV --out_root C:\Users\ASUS\Desktop\SSAU\outputs\ssau_srs_out --inputs C:\Users\ASUS\Desktop\SSAU\outputs\ssau_master_alphabet\alphabet.json C:\Users\ASUS\Desktop\SSAU\outputs\ssw_extract_out\alphabet.json C:\Users\ASUS\Desktop\SSAU\outputs\ssau_csv_extract_out\alphabet.json C:\Users\ASUS\Desktop\SSAU\outputs\ssau_unify_out\20000101_000000__SSAU_UNIFY__V02__V02_UNIFY_MASTER_SSW_CSV\ssau_unified_alphabet.json --verify_replay
+
+VERIFY_REPLAY: PASS (all artifacts byte-identical across REPLAY_A and REPLAY_B)
+OK: SSAU SRS growth curve v0.1 complete
+Output folder: C:\Users\ASUS\Desktop\SSAU\outputs\ssau_srs_out
+
+CMD: C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe C:\Users\ASUS\Desktop\SSAU\scripts\ssau_srs_growth_curve_v0_1.py --tag V01_SRS_CURVE_MASTER_PLUS_INJECT50_UNIFIED --out_root C:\Users\ASUS\Desktop\SSAU\outputs\ssau_srs_out --inputs C:\Users\ASUS\Desktop\SSAU\outputs\ssau_master_alphabet\alphabet.json C:\Users\ASUS\Desktop\SSAU\outputs\ssau_inject_out\20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER\INJECT_000050\alphabet.json C:\Users\ASUS\Desktop\SSAU\outputs\ssau_unify_out\20000101_000000__SSAU_UNIFY__V02__V02_UNIFY_MASTER_PLUS_INJECT50\ssau_unified_alphabet.json --verify_replay
+
+VERIFY_REPLAY: PASS (all artifacts byte-identical across REPLAY_A and REPLAY_B)
+OK: SSAU SRS growth curve v0.1 complete
+Output folder: C:\Users\ASUS\Desktop\SSAU\outputs\ssau_srs_out
+
+CMD: C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe C:\Users\ASUS\Desktop\SSAU\scripts\ssau_refusal_invariance_v0_4.py --tag V04_RIT_MASTER_SSW_CSV_TERMINAL --out_root C:\Users\ASUS\Desktop\SSAU\outputs\ssau_rit_out --unified C:\Users\ASUS\Desktop\SSAU\outputs\ssau_unify_out\20000101_000000__SSAU_UNIFY__V02__V02_UNIFY_MASTER_SSW_CSV\ssau_unified_alphabet.json --inputs C:\Users\ASUS\Desktop\SSAU\outputs\ssau_master_alphabet\alphabet.json C:\Users\ASUS\Desktop\SSAU\outputs\ssw_extract_out\alphabet.json C:\Users\ASUS\Desktop\SSAU\outputs\ssau_csv_extract_out\alphabet.json --verify_replay
+
+VERIFY_REPLAY: PASS (all artifacts byte-identical across REPLAY_A and REPLAY_B)
+OK: SSAU refusal invariance test v0.4 complete
+Output folder: C:\Users\ASUS\Desktop\SSAU\outputs\ssau_rit_out
+
+CMD: C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe C:\Users\ASUS\Desktop\SSAU\scripts\ssau_refusal_invariance_v0_4.py --tag V04_RIT_MASTER_PLUS_INJECT50_TERMINAL --out_root C:\Users\ASUS\Desktop\SSAU\outputs\ssau_rit_out --unified C:\Users\ASUS\Desktop\SSAU\outputs\ssau_unify_out\20000101_000000__SSAU_UNIFY__V02__V02_UNIFY_MASTER_PLUS_INJECT50\ssau_unified_alphabet.json --inputs C:\Users\ASUS\Desktop\SSAU\outputs\ssau_master_alphabet\alphabet.json C:\Users\ASUS\Desktop\SSAU\outputs\ssau_inject_out\20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER\INJECT_000050\alphabet.json --verify_replay
+
+VERIFY_REPLAY: PASS (all artifacts byte-identical across REPLAY_A and REPLAY_B)
+OK: SSAU refusal invariance test v0.4 complete
+Output folder: C:\Users\ASUS\Desktop\SSAU\outputs\ssau_rit_out
+
+CMD: C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe C:\Users\ASUS\Desktop\SSAU\scripts\ssau_structural_collapse_mapping_v0_1.py --tag V01_SCM_FROM_TEST_SERIES --out_root C:\Users\ASUS\Desktop\SSAU\outputs\ssau_scm_out --verify_replay
+
+VERIFY_REPLAY: PASS (all artifacts byte-identical across REPLAY_A and REPLAY_B)
+OK: SSAU structural collapse mapping demo v0.1 complete
+Output folder: C:\Users\ASUS\Desktop\SSAU\outputs\ssau_scm_out
+
+CMD: C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe C:\Users\ASUS\Desktop\SSAU\scripts\ssau_lattice_compress_v0_1.py --tag V01_CORE_CROSS_DOMAIN --out_root C:\Users\ASUS\Desktop\SSAU\outputs\ssau_lattice_compress_out --alphabet C:\Users\ASUS\Desktop\SSAU\outputs\ssau_master_alphabet\alphabet.json --alphabet C:\Users\ASUS\Desktop\SSAU\outputs\ssw_extract_out\alphabet.json --alphabet C:\Users\ASUS\Desktop\SSAU\outputs\ssau_csv_extract_out\alphabet.json --verify_replay
+
+VERIFY_REPLAY: PASS (all artifacts byte-identical across REPLAY_A and REPLAY_B)
+OK: SSAU lattice+compression v0.1 complete
+Output folder: C:\Users\ASUS\Desktop\SSAU\outputs\ssau_lattice_compress_out
+
+CMD: C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe C:\Users\ASUS\Desktop\SSAU\scripts\ssau_lattice_compress_v0_1.py --tag V01_INJECTION_CURVE --out_root C:\Users\ASUS\Desktop\SSAU\outputs\ssau_lattice_compress_out --alphabet C:\Users\ASUS\Desktop\SSAU\outputs\ssau_inject_out\20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER\INJECT_000000\alphabet.json --alphabet C:\Users\ASUS\Desktop\SSAU\outputs\ssau_inject_out\20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER\INJECT_000005\alphabet.json --alphabet C:\Users\ASUS\Desktop\SSAU\outputs\ssau_inject_out\20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER\INJECT_000010\alphabet.json --alphabet C:\Users\ASUS\Desktop\SSAU\outputs\ssau_inject_out\20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER\INJECT_000025\alphabet.json --alphabet C:\Users\ASUS\Desktop\SSAU\outputs\ssau_inject_out\20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER\INJECT_000050\alphabet.json --verify_replay
+
+VERIFY_REPLAY: PASS (all artifacts byte-identical across REPLAY_A and REPLAY_B)
+OK: SSAU lattice+compression v0.1 complete
+Output folder: C:\Users\ASUS\Desktop\SSAU\outputs\ssau_lattice_compress_out

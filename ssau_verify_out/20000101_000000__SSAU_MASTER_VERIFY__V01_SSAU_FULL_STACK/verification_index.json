@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "INJECT",
+      "manifest_sha256": "eaa69e206c80ac9b385f96acddcdcafbb4da71111bd4e55233662831900beae3",
+      "out_dir": "C:\\Users\\ASUS\\Desktop\\SSAU\\outputs\\ssau_inject_out\\20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER",
+      "sha256_of_manifest_file": "eaa69e206c80ac9b385f96acddcdcafbb4da71111bd4e55233662831900beae3"
+    },
+    {
+      "component": "LATTICE_CORE_CROSS_DOMAIN",
+      "manifest_sha256": "9216d242754e8f0df2f5fb6087c590e7d93fff9b6b48fd886452eed43b3b273d",
+      "metrics": [],
+      "out_dir": "C:\\Users\\ASUS\\Desktop\\SSAU\\outputs\\ssau_lattice_compress_out\\REPLAY_A__SSAU_LATTICE_COMPRESS__V01__V01_CORE_CROSS_DOMAIN",
+      "sha256_of_manifest_file": "9216d242754e8f0df2f5fb6087c590e7d93fff9b6b48fd886452eed43b3b273d"
+    },
+    {
+      "component": "LATTICE_INJECTION_CURVE",
+      "manifest_sha256": "a50242c797d869722242f5a8eb6aa3645fbde220783b8355250ff5f55346a8d2",
+      "metrics": [],
+      "out_dir": "C:\\Users\\ASUS\\Desktop\\SSAU\\outputs\\ssau_lattice_compress_out\\REPLAY_A__SSAU_LATTICE_COMPRESS__V01__V01_INJECTION_CURVE",
+      "sha256_of_manifest_file": "a50242c797d869722242f5a8eb6aa3645fbde220783b8355250ff5f55346a8d2"
+    },
+    {
+      "component": "RIT_INJ50",
+      "manifest_sha256": "42c6d2e3ac16af859e49103453a538ee2176cc69e320dceda1bfffcd4ce4b0ea",
+      "out_dir": "C:\\Users\\ASUS\\Desktop\\SSAU\\outputs\\ssau_rit_out\\20000101_000000__SSAU_RIT__V04__V04_RIT_MASTER_PLUS_INJECT50_TERMINAL",
+      "sha256_of_manifest_file": "42c6d2e3ac16af859e49103453a538ee2176cc69e320dceda1bfffcd4ce4b0ea"
+    },
+    {
+      "component": "RIT_MSC",
+      "manifest_sha256": "e717f3379e356dd4bfbe53439f438dd1ddcc3d98ff534a2b5ed0da4fd2cac120",
+      "out_dir": "C:\\Users\\ASUS\\Desktop\\SSAU\\outputs\\ssau_rit_out\\20000101_000000__SSAU_RIT__V04__V04_RIT_MASTER_SSW_CSV_TERMINAL",
+      "sha256_of_manifest_file": "e717f3379e356dd4bfbe53439f438dd1ddcc3d98ff534a2b5ed0da4fd2cac120"
+    },
+    {
+      "component": "SCM",
+      "manifest_sha256": "f356c8119d87421535549fdeb1b314260e457d97d480f8826cfc06bab0ffc26f",
+      "out_dir": "C:\\Users\\ASUS\\Desktop\\SSAU\\outputs\\ssau_scm_out\\20000101_000000__SSAU_SCM__V01__V01_SCM_FROM_TEST_SERIES",
+      "sha256_of_manifest_file": "f356c8119d87421535549fdeb1b314260e457d97d480f8826cfc06bab0ffc26f"
+    },
+    {
+      "component": "SRS_CURVE_INJ50",
+      "manifest_sha256": "45c407561c5cf8d499b9c6d13b9f6a226db1fee8cc592ec36bfc2173f301e938",
+      "out_dir": "C:\\Users\\ASUS\\Desktop\\SSAU\\outputs\\ssau_srs_out\\20000101_000000__SSAU_SRS__V01__V01_SRS_CURVE_MASTER_PLUS_INJECT50_UNIFIED",
+      "sha256_of_manifest_file": "45c407561c5cf8d499b9c6d13b9f6a226db1fee8cc592ec36bfc2173f301e938"
+    },
+    {
+      "component": "SRS_CURVE_MSC",
+      "manifest_sha256": "b201e751f4f845999dbec0172f2df3e1d694151847de1215d14438af5eb5bfa4",
+      "out_dir": "C:\\Users\\ASUS\\Desktop\\SSAU\\outputs\\ssau_srs_out\\20000101_000000__SSAU_SRS__V01__V01_SRS_CURVE_MASTER_PLUS_SSW_PLUS_CSV",
+      "sha256_of_manifest_file": "b201e751f4f845999dbec0172f2df3e1d694151847de1215d14438af5eb5bfa4"
+    },
+    {
+      "component": "UNIFY_MASTER_PLUS_INJECT50",
+      "manifest_sha256": "9f79ccc41c9aa510fed03fc85bcc77efb30cd246cf18d674c01141d123426668",
+      "out_dir": "C:\\Users\\ASUS\\Desktop\\SSAU\\outputs\\ssau_unify_out\\20000101_000000__SSAU_UNIFY__V02__V02_UNIFY_MASTER_PLUS_INJECT50",
+      "sha256_of_manifest_file": "9f79ccc41c9aa510fed03fc85bcc77efb30cd246cf18d674c01141d123426668"
+    },
+    {
+      "component": "UNIFY_MASTER_SSW_CSV",
+      "manifest_sha256": "d9d8d8ba244911bee70acd8f26470d2205c488d478d8747eff3bf61282174f92",
+      "out_dir": "C:\\Users\\ASUS\\Desktop\\SSAU\\outputs\\ssau_unify_out\\20000101_000000__SSAU_UNIFY__V02__V02_UNIFY_MASTER_SSW_CSV",
+      "sha256_of_manifest_file": "d9d8d8ba244911bee70acd8f26470d2205c488d478d8747eff3bf61282174f92"
+    }
+  ],
+  "created_utc": "2026-02-11T11:44:06Z",
+  "run_dir": "C:\\Users\\ASUS\\Desktop\\SSAU\\outputs\\ssau_verify_out\\20000101_000000__SSAU_MASTER_VERIFY__V01_SSAU_FULL_STACK",
+  "run_tag": "V01_SSAU_FULL_STACK",
+  "verify_replay": true
+}
