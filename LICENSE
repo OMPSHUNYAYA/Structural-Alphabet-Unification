@@ -1,0 +1,147 @@
+Open Standard License — SSAU
+
+Shunyaya Structural Alphabet Unification (SSAU)
+
+Permission
+
+Permission is hereby granted, free of charge, to any person or organization to use, implement, reproduce, publish, distribute, reference, extend, or incorporate this Standard, in whole or in part, without restriction.
+
+This permission applies to both commercial and non-commercial use.
+
+No registration required.
+No fees required.
+No approval required.
+
+
+No Restrictions
+
+This Open Standard imposes no legal, technical, or commercial restrictions on use or implementation.
+
+Attribution is not required.
+
+No endorsement or certification is implied.
+
+No runtime obligations apply.
+
+No implementation approval is required.
+
+Correctness and conformity are governed by structural behavior and deterministic replay, not by licensing terms.
+
+
+Recommended Attribution (Optional)
+
+Attribution is recommended but not required.
+
+If provided, the preferred form is:
+
+“Implements the Shunyaya Structural Alphabet Unification (SSAU).”
+
+Attribution must not imply endorsement by the authors or the Shunyaya framework.
+
+Use of the name “Shunyaya Structural Alphabet Unification (SSAU)” must not imply:
+
+• endorsement
+• certification
+• official compliance approval
+• governance authority
+
+Conformance claims must be supported by deterministic replay evidence.
+
+
+Scope of the Standard
+
+Shunyaya Structural Alphabet Unification (SSAU) defines a deterministic structural governance layer for deterministic domains.
+
+SSAU establishes:
+
+Finite Structural Regime Space SRS(D)
+
+Governance lattice boundedness
+
+Injection stability
+
+Collision stability
+
+Replay-verifiable determinism
+
+Preservation of classical measurable quantities
+
+The governing invariant is:
+
+phi((m,a,s)) = m
+
+SSAU does not:
+
+modify domain equations
+introduce predictive models
+unify physical forces
+simulate system dynamics
+guarantee safety outcomes
+
+SSAU governs structural admissibility, not causation.
+
+
+Conformance
+
+An implementation conforms to the SSAU Open Standard if it:
+
+Preserves classical measurement:
+
+phi((m,a,s)) = m
+
+Produces deterministic structural regime extraction.
+
+Collapses regimes into a bounded governance lattice:
+DENY <= ABSTAIN <= ALLOW_RESTRICTED <= ALLOW
+
+Produces byte-identical artifacts under independent replay:
+
+B_A = B_B
+
+Remains bounded under deterministic injection.
+
+Resolves cross-domain collision deterministically.
+
+Any implementation introducing:
+
+randomness
+probabilistic inference
+adaptive tuning
+tolerance-based decision logic
+nondeterministic output
+
+does not conform to the SSAU Open Standard.
+
+Independent implementations are permitted and encouraged.
+
+
+Relationship to Other Licenses
+
+This Open Standard applies only to the SSAU specification and normative structural definitions.
+
+Reference implementations, adapters, tooling, or example scripts may be released under separate licenses if explicitly stated.
+
+Implementation licensing does not alter the structural conformance requirements of this Standard.
+
+
+Responsibility
+
+Use of SSAU in operational, governance, infrastructure, AI, or safety-critical contexts is undertaken entirely at the user’s own responsibility.
+
+SSAU provides structural admissibility discipline and deterministic replay guarantees under declared scope.
+
+It does not provide operational authority, certification, or safety guarantees.
+
+
+No Warranty
+
+THE STANDARD IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE USE OF THIS STANDARD.
+
+
+Closing Statement
+
+SSAU is published as an Open Structural Standard to maximize interoperability, independent verification, and deterministic correctness.
+
+It is governed by structure — not by permission.
