@@ -1,0 +1,113 @@
+{
+  "engine": "SSAU_LATTICE_COMPRESS__V01",
+  "governance_set": [
+    "DENY",
+    "ABSTAIN",
+    "ALLOW_RESTRICTED",
+    "ALLOW"
+  ],
+  "inputs": [
+    "C:/Users/ASUS/Desktop/SSAU/outputs/ssau_master_alphabet/alphabet.json",
+    "C:/Users/ASUS/Desktop/SSAU/outputs/ssw_extract_out/alphabet.json",
+    "C:/Users/ASUS/Desktop/SSAU/outputs/ssau_csv_extract_out/alphabet.json"
+  ],
+  "invariant": "phi((m,a,s)) = m",
+  "n_inputs": 3,
+  "reports": [
+    {
+      "CR_role_to_decision": 2.6666666666666665,
+      "CR_sigma_to_decision": 2.6666666666666665,
+      "CR_sigma_to_role": 1.0,
+      "H_decision": 1.0986122886681098,
+      "H_role": 2.0794415416798357,
+      "H_sigma": 2.0794415416798357,
+      "K_decision": 3,
+      "K_role": 8,
+      "K_sigma": 8,
+      "RED_sigma_to_decision": 0.47167916642628116,
+      "alphabet_path": "C:/Users/ASUS/Desktop/SSAU/outputs/ssau_master_alphabet/alphabet.json",
+      "counts_total": 66,
+      "decision_validation": {
+        "ok": true,
+        "why": "OK"
+      },
+      "refusal_sigma_count": 1,
+      "unique_decisions": [
+        "ALLOW",
+        "ALLOW_RESTRICTED",
+        "DENY"
+      ],
+      "unique_roles": [
+        "C",
+        "D",
+        "I",
+        "M",
+        "N",
+        "R",
+        "T",
+        "X"
+      ]
+    },
+    {
+      "CR_role_to_decision": 1.6666666666666667,
+      "CR_sigma_to_decision": 3.0,
+      "CR_sigma_to_role": 1.8,
+      "H_decision": 1.0986122886681098,
+      "H_role": 1.6094379124341003,
+      "H_sigma": 2.1972245773362196,
+      "K_decision": 3,
+      "K_role": 5,
+      "K_sigma": 9,
+      "RED_sigma_to_decision": 0.5,
+      "alphabet_path": "C:/Users/ASUS/Desktop/SSAU/outputs/ssw_extract_out/alphabet.json",
+      "counts_total": 512,
+      "decision_validation": {
+        "ok": true,
+        "why": "OK"
+      },
+      "refusal_sigma_count": 1,
+      "unique_decisions": [
+        "ABSTAIN",
+        "ALLOW",
+        "ALLOW_RESTRICTED"
+      ],
+      "unique_roles": [
+        "A",
+        "C",
+        "D",
+        "I",
+        "M"
+      ]
+    },
+    {
+      "CR_role_to_decision": 1.5,
+      "CR_sigma_to_decision": 2.5,
+      "CR_sigma_to_role": 1.6666666666666667,
+      "H_decision": 0.6931471805599453,
+      "H_role": 1.0986122886681098,
+      "H_sigma": 1.6094379124341003,
+      "K_decision": 2,
+      "K_role": 3,
+      "K_sigma": 5,
+      "RED_sigma_to_decision": 0.5693234419266069,
+      "alphabet_path": "C:/Users/ASUS/Desktop/SSAU/outputs/ssau_csv_extract_out/alphabet.json",
+      "counts_total": 9,
+      "decision_validation": {
+        "ok": true,
+        "why": "OK"
+      },
+      "refusal_sigma_count": 0,
+      "unique_decisions": [
+        "ALLOW",
+        "ALLOW_RESTRICTED"
+      ],
+      "unique_roles": [
+        "C",
+        "D",
+        "X"
+      ]
+    }
+  ],
+  "tag": "V01_CORE_CROSS_DOMAIN",
+  "version": "v0.1"
+}

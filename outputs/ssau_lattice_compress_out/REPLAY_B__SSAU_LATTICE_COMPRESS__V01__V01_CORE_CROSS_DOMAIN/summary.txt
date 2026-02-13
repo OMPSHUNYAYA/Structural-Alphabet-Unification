@@ -1,0 +1,30 @@
+SSAU Lattice + Compression Report v0.1
+engine=SSAU_LATTICE_COMPRESS__V01
+tag=V01_CORE_CROSS_DOMAIN
+invariant: phi((m,a,s)) = m
+governance_order: DENY <= ABSTAIN <= ALLOW_RESTRICTED <= ALLOW
+
+INPUT[0]: C:/Users/ASUS/Desktop/SSAU/outputs/ssau_master_alphabet/alphabet.json
+  K_sigma=8  K_role=8  K_decision=3
+  CR_sigma_to_role=1  CR_sigma_to_decision=2.66667  CR_role_to_decision=2.66667
+  H_sigma=2.07944  H_role=2.07944  H_decision=1.09861
+  RED_sigma_to_decision=0.471679
+  refusal_sigma_count=1
+  decision_validation=OK (OK)
+
+INPUT[1]: C:/Users/ASUS/Desktop/SSAU/outputs/ssw_extract_out/alphabet.json
+  K_sigma=9  K_role=5  K_decision=3
+  CR_sigma_to_role=1.8  CR_sigma_to_decision=3  CR_role_to_decision=1.66667
+  H_sigma=2.19722  H_role=1.60944  H_decision=1.09861
+  RED_sigma_to_decision=0.5
+  refusal_sigma_count=1
+  decision_validation=OK (OK)
+
+INPUT[2]: C:/Users/ASUS/Desktop/SSAU/outputs/ssau_csv_extract_out/alphabet.json
+  K_sigma=5  K_role=3  K_decision=2
+  CR_sigma_to_role=1.66667  CR_sigma_to_decision=2.5  CR_role_to_decision=1.5
+  H_sigma=1.60944  H_role=1.09861  H_decision=0.693147
+  RED_sigma_to_decision=0.569323
+  refusal_sigma_count=0
+  decision_validation=OK (OK)
+

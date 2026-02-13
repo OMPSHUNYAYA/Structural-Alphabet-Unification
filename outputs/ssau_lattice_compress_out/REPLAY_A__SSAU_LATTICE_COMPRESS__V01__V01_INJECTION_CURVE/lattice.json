@@ -1,0 +1,13 @@
+{
+  "engine": "SSAU_LATTICE_COMPRESS__V01",
+  "governance_set": [
+    "DENY",
+    "ABSTAIN",
+    "ALLOW_RESTRICTED",
+    "ALLOW"
+  ],
+  "join": "x \u2228 y = max(x,y) under the order",
+  "meet": "x \u2227 y = min(x,y) under the order",
+  "order": "DENY <= ABSTAIN <= ALLOW_RESTRICTED <= ALLOW",
+  "version": "v0.1"
+}

@@ -1,0 +1,46 @@
+SSAU Lattice + Compression Report v0.1
+engine=SSAU_LATTICE_COMPRESS__V01
+tag=V01_INJECTION_CURVE
+invariant: phi((m,a,s)) = m
+governance_order: DENY <= ABSTAIN <= ALLOW_RESTRICTED <= ALLOW
+
+INPUT[0]: C:/Users/ASUS/Desktop/SSAU/outputs/ssau_inject_out/20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER/INJECT_000000/alphabet.json
+  K_sigma=8  K_role=8  K_decision=3
+  CR_sigma_to_role=1  CR_sigma_to_decision=2.66667  CR_role_to_decision=2.66667
+  H_sigma=2.07944  H_role=2.07944  H_decision=1.09861
+  RED_sigma_to_decision=0.471679
+  refusal_sigma_count=1
+  decision_validation=OK (OK)
+
+INPUT[1]: C:/Users/ASUS/Desktop/SSAU/outputs/ssau_inject_out/20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER/INJECT_000005/alphabet.json
+  K_sigma=13  K_role=8  K_decision=3
+  CR_sigma_to_role=1.625  CR_sigma_to_decision=4.33333  CR_role_to_decision=2.66667
+  H_sigma=2.56495  H_role=2.07944  H_decision=1.09861
+  RED_sigma_to_decision=0.571683
+  refusal_sigma_count=1
+  decision_validation=OK (OK)
+
+INPUT[2]: C:/Users/ASUS/Desktop/SSAU/outputs/ssau_inject_out/20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER/INJECT_000010/alphabet.json
+  K_sigma=18  K_role=8  K_decision=3
+  CR_sigma_to_role=2.25  CR_sigma_to_decision=6  CR_role_to_decision=2.66667
+  H_sigma=2.89037  H_role=2.07944  H_decision=1.09861
+  RED_sigma_to_decision=0.619906
+  refusal_sigma_count=1
+  decision_validation=OK (OK)
+
+INPUT[3]: C:/Users/ASUS/Desktop/SSAU/outputs/ssau_inject_out/20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER/INJECT_000025/alphabet.json
+  K_sigma=33  K_role=8  K_decision=3
+  CR_sigma_to_role=4.125  CR_sigma_to_decision=11  CR_role_to_decision=2.66667
+  H_sigma=3.49651  H_role=2.07944  H_decision=1.09861
+  RED_sigma_to_decision=0.685797
+  refusal_sigma_count=1
+  decision_validation=OK (OK)
+
+INPUT[4]: C:/Users/ASUS/Desktop/SSAU/outputs/ssau_inject_out/20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER/INJECT_000050/alphabet.json
+  K_sigma=58  K_role=8  K_decision=3
+  CR_sigma_to_role=7.25  CR_sigma_to_decision=19.3333  CR_role_to_decision=2.66667
+  H_sigma=4.06044  H_role=2.07944  H_decision=1.09861
+  RED_sigma_to_decision=0.729435
+  refusal_sigma_count=1
+  decision_validation=OK (OK)
+

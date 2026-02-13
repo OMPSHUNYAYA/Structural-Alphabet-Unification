@@ -1,0 +1,192 @@
+{
+  "engine": "SSAU_LATTICE_COMPRESS__V01",
+  "governance_set": [
+    "DENY",
+    "ABSTAIN",
+    "ALLOW_RESTRICTED",
+    "ALLOW"
+  ],
+  "inputs": [
+    "C:/Users/ASUS/Desktop/SSAU/outputs/ssau_inject_out/20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER/INJECT_000000/alphabet.json",
+    "C:/Users/ASUS/Desktop/SSAU/outputs/ssau_inject_out/20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER/INJECT_000005/alphabet.json",
+    "C:/Users/ASUS/Desktop/SSAU/outputs/ssau_inject_out/20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER/INJECT_000010/alphabet.json",
+    "C:/Users/ASUS/Desktop/SSAU/outputs/ssau_inject_out/20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER/INJECT_000025/alphabet.json",
+    "C:/Users/ASUS/Desktop/SSAU/outputs/ssau_inject_out/20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER/INJECT_000050/alphabet.json"
+  ],
+  "invariant": "phi((m,a,s)) = m",
+  "n_inputs": 5,
+  "reports": [
+    {
+      "CR_role_to_decision": 2.6666666666666665,
+      "CR_sigma_to_decision": 2.6666666666666665,
+      "CR_sigma_to_role": 1.0,
+      "H_decision": 1.0986122886681098,
+      "H_role": 2.0794415416798357,
+      "H_sigma": 2.0794415416798357,
+      "K_decision": 3,
+      "K_role": 8,
+      "K_sigma": 8,
+      "RED_sigma_to_decision": 0.47167916642628116,
+      "alphabet_path": "C:/Users/ASUS/Desktop/SSAU/outputs/ssau_inject_out/20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER/INJECT_000000/alphabet.json",
+      "counts_total": 66,
+      "decision_validation": {
+        "ok": true,
+        "why": "OK"
+      },
+      "refusal_sigma_count": 1,
+      "unique_decisions": [
+        "ALLOW",
+        "ALLOW_RESTRICTED",
+        "DENY"
+      ],
+      "unique_roles": [
+        "C",
+        "D",
+        "I",
+        "M",
+        "N",
+        "R",
+        "T",
+        "X"
+      ]
+    },
+    {
+      "CR_role_to_decision": 2.6666666666666665,
+      "CR_sigma_to_decision": 4.333333333333333,
+      "CR_sigma_to_role": 1.625,
+      "H_decision": 1.0986122886681098,
+      "H_role": 2.0794415416798357,
+      "H_sigma": 2.5649493574615367,
+      "K_decision": 3,
+      "K_role": 8,
+      "K_sigma": 13,
+      "RED_sigma_to_decision": 0.5716826589686053,
+      "alphabet_path": "C:/Users/ASUS/Desktop/SSAU/outputs/ssau_inject_out/20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER/INJECT_000005/alphabet.json",
+      "counts_total": 66,
+      "decision_validation": {
+        "ok": true,
+        "why": "OK"
+      },
+      "refusal_sigma_count": 1,
+      "unique_decisions": [
+        "ALLOW",
+        "ALLOW_RESTRICTED",
+        "DENY"
+      ],
+      "unique_roles": [
+        "C",
+        "D",
+        "I",
+        "M",
+        "N",
+        "R",
+        "T",
+        "X"
+      ]
+    },
+    {
+      "CR_role_to_decision": 2.6666666666666665,
+      "CR_sigma_to_decision": 6.0,
+      "CR_sigma_to_role": 2.25,
+      "H_decision": 1.0986122886681098,
+      "H_role": 2.0794415416798357,
+      "H_sigma": 2.8903717578961645,
+      "K_decision": 3,
+      "K_role": 8,
+      "K_sigma": 18,
+      "RED_sigma_to_decision": 0.6199062332840657,
+      "alphabet_path": "C:/Users/ASUS/Desktop/SSAU/outputs/ssau_inject_out/20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER/INJECT_000010/alphabet.json",
+      "counts_total": 66,
+      "decision_validation": {
+        "ok": true,
+        "why": "OK"
+      },
+      "refusal_sigma_count": 1,
+      "unique_decisions": [
+        "ALLOW",
+        "ALLOW_RESTRICTED",
+        "DENY"
+      ],
+      "unique_roles": [
+        "C",
+        "D",
+        "I",
+        "M",
+        "N",
+        "R",
+        "T",
+        "X"
+      ]
+    },
+    {
+      "CR_role_to_decision": 2.6666666666666665,
+      "CR_sigma_to_decision": 11.0,
+      "CR_sigma_to_role": 4.125,
+      "H_decision": 1.0986122886681098,
+      "H_role": 2.0794415416798357,
+      "H_sigma": 3.4965075614664802,
+      "K_decision": 3,
+      "K_role": 8,
+      "K_sigma": 33,
+      "RED_sigma_to_decision": 0.6857972507265685,
+      "alphabet_path": "C:/Users/ASUS/Desktop/SSAU/outputs/ssau_inject_out/20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER/INJECT_000025/alphabet.json",
+      "counts_total": 66,
+      "decision_validation": {
+        "ok": true,
+        "why": "OK"
+      },
+      "refusal_sigma_count": 1,
+      "unique_decisions": [
+        "ALLOW",
+        "ALLOW_RESTRICTED",
+        "DENY"
+      ],
+      "unique_roles": [
+        "C",
+        "D",
+        "I",
+        "M",
+        "N",
+        "R",
+        "T",
+        "X"
+      ]
+    },
+    {
+      "CR_role_to_decision": 2.6666666666666665,
+      "CR_sigma_to_decision": 19.333333333333332,
+      "CR_sigma_to_role": 7.25,
+      "H_decision": 1.0986122886681098,
+      "H_role": 2.0794415416798357,
+      "H_sigma": 4.060443010546419,
+      "K_decision": 3,
+      "K_role": 8,
+      "K_sigma": 58,
+      "RED_sigma_to_decision": 0.7294353631328843,
+      "alphabet_path": "C:/Users/ASUS/Desktop/SSAU/outputs/ssau_inject_out/20000101_000000__SSAU_INJECT__V01__V01_INJECT_SSAU_MASTER/INJECT_000050/alphabet.json",
+      "counts_total": 66,
+      "decision_validation": {
+        "ok": true,
+        "why": "OK"
+      },
+      "refusal_sigma_count": 1,
+      "unique_decisions": [
+        "ALLOW",
+        "ALLOW_RESTRICTED",
+        "DENY"
+      ],
+      "unique_roles": [
+        "C",
+        "D",
+        "I",
+        "M",
+        "N",
+        "R",
+        "T",
+        "X"
+      ]
+    }
+  ],
+  "tag": "V01_INJECTION_CURVE",
+  "version": "v0.1"
+}
