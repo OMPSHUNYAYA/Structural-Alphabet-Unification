@@ -1,0 +1,47 @@
+{
+  "engine": "SSAU_EXTRACT__V02",
+  "version": "v0.2",
+  "contract": "CAS-1",
+  "invariant": "phi((m,a,s)) = m",
+  "alphabet": [
+    {
+      "sigma": "C:STABLE",
+      "role": "C",
+      "decision": "ALLOW",
+      "count": 1,
+      "first_index": 3
+    },
+    {
+      "sigma": "D:DRIFT_UP",
+      "role": "D",
+      "decision": "ALLOW",
+      "count": 1,
+      "first_index": 0
+    },
+    {
+      "sigma": "D:UP",
+      "role": "D",
+      "decision": "ALLOW",
+      "count": 2,
+      "first_index": 1
+    },
+    {
+      "sigma": "M:TURN",
+      "role": "D",
+      "decision": "ALLOW",
+      "count": 4,
+      "first_index": 2
+    },
+    {
+      "sigma": "X:CROSS",
+      "role": "X",
+      "decision": "ALLOW_RESTRICTED",
+      "count": 1,
+      "first_index": 4
+    }
+  ],
+  "notes": {
+    "roles": "GB-1 roles: C,D,T,M,X,I,R,N,A",
+    "decisions": "ALLOW, ALLOW_RESTRICTED, DENY, ABSTAIN"
+  }
+}

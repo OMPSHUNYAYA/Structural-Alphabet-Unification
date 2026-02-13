@@ -1,0 +1,10 @@
+SSAU Extractor v0.2
+engine=SSAU_EXTRACT__V02
+tag=V02_EXTRACT_CSV_TEST
+invariant=phi((m,a,s)) = m
+in_csv=outputs\ssau_csv_adapter_out\20000101_000000__SSAU_ADAPTER_CSV__V01__V01_CSV_TEST\timeline.csv
+rows_read=9
+timeline_len=9
+alphabet_size=5
+transition_edges=7
+late_emergent_symbols=0
