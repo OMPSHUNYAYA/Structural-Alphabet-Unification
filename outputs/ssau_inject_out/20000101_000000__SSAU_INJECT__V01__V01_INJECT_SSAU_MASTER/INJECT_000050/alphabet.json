@@ -1,0 +1,420 @@
+{
+  "alphabet": [
+    {
+      "count": 39,
+      "decision": "ALLOW",
+      "first_index": 0,
+      "role": "C",
+      "sigma": "U:C:STABLE"
+    },
+    {
+      "count": 8,
+      "decision": "ALLOW",
+      "first_index": 0,
+      "role": "D",
+      "sigma": "U:D:DRIFT"
+    },
+    {
+      "count": 7,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": 2,
+      "role": "X",
+      "sigma": "U:X:CROSS"
+    },
+    {
+      "count": 4,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": 24,
+      "role": "T",
+      "sigma": "U:T:THRESH"
+    },
+    {
+      "count": 3,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": 19,
+      "role": "M",
+      "sigma": "U:M:META"
+    },
+    {
+      "count": 2,
+      "decision": "ALLOW",
+      "first_index": 1,
+      "role": "I",
+      "sigma": "U:I:IRREV"
+    },
+    {
+      "count": 2,
+      "decision": "ALLOW",
+      "first_index": 37,
+      "role": "R",
+      "sigma": "U:R:RECOVER"
+    },
+    {
+      "count": 1,
+      "decision": "DENY",
+      "first_index": 41,
+      "role": "N",
+      "sigma": "U:N:DENY"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0001"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0002"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0003"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0004"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0005"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0006"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0007"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0008"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0009"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0010"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0011"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0012"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0013"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0014"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0015"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0016"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0017"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0018"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0019"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0020"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0021"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0022"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0023"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0024"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0025"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0026"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0027"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0028"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0029"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0030"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0031"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0032"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0033"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0034"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0035"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0036"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0037"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0038"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0039"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0040"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0041"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0042"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0043"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0044"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0045"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0046"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0047"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0048"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0049"
+    },
+    {
+      "count": 0,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": -1,
+      "role": "X",
+      "sigma": "INJ0050"
+    }
+  ],
+  "contract": "CAS-1",
+  "engine": "SSAU_ADAPTER__UNIFIED_TO_CAS1__V01",
+  "invariant": "phi((m,a,s))=m",
+  "notes": {
+    "mapping": "sigma='U:' + u_sigma; count=total_count; first_index=first_index_min",
+    "source_contract": "unify_alphabets_and_optional_transitions",
+    "source_engine": "SSAU_UNIFY__V02",
+    "tag": "SSAU_MASTER_CAS1"
+  },
+  "version": "v0.1"
+}

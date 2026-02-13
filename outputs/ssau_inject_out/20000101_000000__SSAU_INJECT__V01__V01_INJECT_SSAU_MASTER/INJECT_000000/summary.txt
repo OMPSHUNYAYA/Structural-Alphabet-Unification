@@ -1,0 +1,9 @@
+SSAU Domain Injection Stress v0.1
+engine=SSAU_INJECT__V01
+tag=V01_INJECT_SSAU_MASTER
+replay=REPLAY_B
+base=C:/Users/ASUS/Desktop/SSAU/outputs/ssau_master_alphabet/alphabet.json
+inject_n=0
+prefix=INJ
+role=X
+decision=ALLOW_RESTRICTED

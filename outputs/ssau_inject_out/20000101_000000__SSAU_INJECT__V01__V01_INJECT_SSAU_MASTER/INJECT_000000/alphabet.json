@@ -1,0 +1,70 @@
+{
+  "alphabet": [
+    {
+      "count": 39,
+      "decision": "ALLOW",
+      "first_index": 0,
+      "role": "C",
+      "sigma": "U:C:STABLE"
+    },
+    {
+      "count": 8,
+      "decision": "ALLOW",
+      "first_index": 0,
+      "role": "D",
+      "sigma": "U:D:DRIFT"
+    },
+    {
+      "count": 7,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": 2,
+      "role": "X",
+      "sigma": "U:X:CROSS"
+    },
+    {
+      "count": 4,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": 24,
+      "role": "T",
+      "sigma": "U:T:THRESH"
+    },
+    {
+      "count": 3,
+      "decision": "ALLOW_RESTRICTED",
+      "first_index": 19,
+      "role": "M",
+      "sigma": "U:M:META"
+    },
+    {
+      "count": 2,
+      "decision": "ALLOW",
+      "first_index": 1,
+      "role": "I",
+      "sigma": "U:I:IRREV"
+    },
+    {
+      "count": 2,
+      "decision": "ALLOW",
+      "first_index": 37,
+      "role": "R",
+      "sigma": "U:R:RECOVER"
+    },
+    {
+      "count": 1,
+      "decision": "DENY",
+      "first_index": 41,
+      "role": "N",
+      "sigma": "U:N:DENY"
+    }
+  ],
+  "contract": "CAS-1",
+  "engine": "SSAU_ADAPTER__UNIFIED_TO_CAS1__V01",
+  "invariant": "phi((m,a,s))=m",
+  "notes": {
+    "mapping": "sigma='U:' + u_sigma; count=total_count; first_index=first_index_min",
+    "source_contract": "unify_alphabets_and_optional_transitions",
+    "source_engine": "SSAU_UNIFY__V02",
+    "tag": "SSAU_MASTER_CAS1"
+  },
+  "version": "v0.1"
+}

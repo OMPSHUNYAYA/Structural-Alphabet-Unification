@@ -1,0 +1,23 @@
+{
+  "base_path": "C:/Users/ASUS/Desktop/SSAU/outputs/ssau_master_alphabet/alphabet.json",
+  "contract": "domain_injection_stress",
+  "engine": "SSAU_INJECT__V01",
+  "inject_counts": [
+    0,
+    5,
+    10,
+    25,
+    50
+  ],
+  "invariant": "phi((m,a,s)) = m",
+  "produced": [
+    "INJECT_000000/alphabet.json",
+    "INJECT_000005/alphabet.json",
+    "INJECT_000010/alphabet.json",
+    "INJECT_000025/alphabet.json",
+    "INJECT_000050/alphabet.json"
+  ],
+  "replay": "REPLAY_B",
+  "tag": "V01_INJECT_SSAU_MASTER",
+  "version": "v0.1"
+}

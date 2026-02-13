@@ -1,0 +1,13 @@
+{
+  "base_path": "C:/Users/ASUS/Desktop/SSAU/outputs/ssau_master_alphabet/alphabet.json",
+  "contract": "domain_injection_stress",
+  "decision": "ALLOW_RESTRICTED",
+  "engine": "SSAU_INJECT__V01",
+  "inject_n": 0,
+  "injected_sigmas": [],
+  "invariant": "phi((m,a,s)) = m",
+  "prefix": "INJ",
+  "replay": "REPLAY_B",
+  "role": "X",
+  "version": "v0.1"
+}

@@ -1,0 +1,6 @@
+inject_n,folder,alphabet_path_rel
+0,INJECT_000000,INJECT_000000/alphabet.json
+5,INJECT_000005,INJECT_000005/alphabet.json
+10,INJECT_000010,INJECT_000010/alphabet.json
+25,INJECT_000025,INJECT_000025/alphabet.json
+50,INJECT_000050,INJECT_000050/alphabet.json
